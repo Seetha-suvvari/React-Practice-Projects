@@ -9,9 +9,7 @@ function App() {
     <>
       <div className='container mt-5 text-center text-primary  '>
           <TodoList/>  
-        </div>      
-              
-      
+        </div> 
       
     </>
   )
