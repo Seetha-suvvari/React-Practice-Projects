@@ -1,16 +1,18 @@
 
-import TodoList from './components/TodoList'
+//import TodoList from './Components/TodoList'
 import "bootstrap/dist/css/bootstrap.min.css";
-//import './App.css'
+import Nav from "./Components/Nav/Nav";
+import Index from "./Components/Pages/Index";
 
 function App() {
 
   return (
     <>
-      <div className='container mt-5 text-center text-primary  '>
+      {/* <div className='container mt-5 text-center text-primary  '>
           <TodoList/>  
-        </div> 
-      
+        </div>  */}
+      <Nav />
+      <Index/>
     </>
   )
 }
